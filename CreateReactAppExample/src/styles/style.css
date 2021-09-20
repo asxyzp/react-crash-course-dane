@@ -1,0 +1,7 @@
+.tweet-block{
+    background-color: lightsteelblue;
+}
+textarea{
+    resize: none;
+    height: 175px;
+}
