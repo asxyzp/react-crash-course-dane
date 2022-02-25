@@ -1,23 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>IntroToReact</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <h2>HELLO, ⚛!</h2>
+    <!-- UNDEFINED LIST -->
+    <!-- OPTION #1 -->
+    <h6 class="fw-bolder m-0 mt-2">Rendering string:</h6>
     <div id="root1"></div>
-    <h1>USING React.createElement():</h1>
+
+    <!-- OPTION #2 -->
+    <h6 class="fw-bolder m-0 mt-2">Rendering undefined list using React.createElement():</h6>
     <div id="root2"></div>
-    <h1>USING JSX:</h1>
+
+    <!-- OPTION #3 -->
+    <h6 class="fw-bolder m-0 mt-2">Rendering undefined list using JSX:</h6>
     <div id="root3"></div>
-    <h1>USING React component:</h1>
+
+    <!-- OPTION #4 -->
+    <h6 class="fw-bolder m-0 mt-2">Rendering undefined list using a React component:</h6>
     <div id="root4"></div>
+
+    <!-- INCREMENT COUNTER -->
+    <h6 class="fw-bolder m-0 mt-2">Increment counter using a React component:</h6>
+    <div id="root5"></div>
+
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
     <script type="text/babel" src="script.js"></script>
-</body>
+  </body>
 </html>
