@@ -1,6 +1,7 @@
-.yellow-bg{
-    background-color: yellow;
+body{
+    font-family: monospace;
+    padding: 10px;
 }
-.green-bg{
-    background-color: green;
+li{
+    list-style-type: hiragana; 
 }
