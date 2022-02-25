@@ -1,11 +1,11 @@
 # React in 3.5 Hours
 
 ## Course details
-**Name:** React in 3.5 Hours
-**Platform:** YouTube.com
-**Channel:** Mike Dane
-**Instructor:** Mike Dane
-**ETC:** 3H 26H 32S
+**Name:** React in 3.5 Hours<br/>
+**Platform:** YouTube.com<br/>
+**Channel:** Mike Dane<br/>
+**Instructor:** Mike Dane<br/>
+**ETC:** 3H 26H 32S<br/>
 **URL:** [https://www.youtube.com/watch?v=ABQLwlE8MUA](https://www.youtube.com/watch?v=ABQLwlE8MUA)
 
 ## Objective
