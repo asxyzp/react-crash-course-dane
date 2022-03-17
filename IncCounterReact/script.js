@@ -7,13 +7,13 @@ const reactContentRoot5 = document.getElementById("root5");
 
 // INCREMENT COUNTER COMPONENT
 const IncrementCounter = (props) => {
-    
+
     // INCREMENT COUNTER VALUE
     const [counter, setCounter] = React.useState(0);
 
     // INCREMENTING COUNTER VALUE
     const increment = (event) => {
-        setCounter(counter+1);
+        setCounter(counter + 1);
     };
 
     return (<div className="d-flex align-items-center">
@@ -24,25 +24,25 @@ const IncrementCounter = (props) => {
 
 // REACT ELEMENTS
 const myFirstElement = React.createElement(
-    "ul", 
+    "ul",
     null, [
-        React.createElement("li", null, "First Item"),
-        React.createElement("li", null, "Second Item"),
-        React.createElement("li", null, "Third Item"),
-    ]
+    React.createElement("li", null, "First Item"),
+    React.createElement("li", null, "Second Item"),
+    React.createElement("li", null, "Third Item"),
+]
 );
 
 //JSX ELEMENTS
 const fourthItem = "4th item";
 const myFirstJSXElement = (<ul className="">
-    
+
     <li>1ST ITEM</li>
     <li>2ND ITEM</li>
     <li>3RD ITEM</li>
 
     {/*INTERPOLATION IS ALLOWED IN JSX*/}
-    <li>{fourthItem.toUpperCase()}</li> 
-</ul>); 
+    <li>{fourthItem.toUpperCase()}</li>
+</ul>);
 
 //REACT COMPONENT
 const App = () => {
@@ -65,16 +65,16 @@ ReactDOM.render(myFirstElement, reactContentRoot2);
 ReactDOM.render(myFirstJSXElement, reactContentRoot3);
 
 // RENDERING COMPONENT
-try { 
-    ReactDOM.render(<App />, reactContentRoot4); 
+try {
+    ReactDOM.render(<App />, reactContentRoot4);
 }
 catch (err) {
     console.error("ERROR FOR RENDERING COMPONENT");
     console.error(err);
 }
 
-try { 
-    ReactDOM.render(<IncrementCounter/>, reactContentRoot5); 
+try {
+    ReactDOM.render(<IncrementCounter />, reactContentRoot5);
 }
 catch (err) {
     console.error("ERROR FOR RENDERING COMPONENT");
